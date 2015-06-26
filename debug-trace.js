@@ -22,7 +22,7 @@ module.exports = function (options) {
   console.traceOptions = console.traceOptions || {};
   console.traceOptions.cwd        = options.cwd         ||  process.cwd() + '/';
   console.traceOptions.colors     = options.colors      || true;
-  console.traceOptions.always     = options.always      || true;
+  console.traceOptions.always     = options.always      || false;
   console.traceOptions.right     = options.right        || false;
   console.traceOptions.dateFormat = options.dateFormat  || 'YYYY.MM.DD HH:mm:ss.SSS';
 }
